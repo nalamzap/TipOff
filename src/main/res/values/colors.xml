@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0C1D4C</color>
+    <color name="colorPrimaryDark">#081230</color>
+    <color name="colorAccent">#0C1D4C</color>
+    <color name="colorUsernameMyPage">#6DFFFFFF</color>
+    <color name="bgcoloract">#FFFFFF</color>
+    <color name="hint">#DCC7C7C7</color>
+    <color name="bgcolorcard">#909090</color>
+    <color name="colorcard">#EBEBEB</color>
+    <color name="Accent">#07112C</color>
+    <color name="like_color">#45CF45</color>
+    <color name="dislike_color">#CF4545</color>
+    <color name="color_yellow">#FFEA00</color>
+    <color name="transparent_dark_btn_color">#DF07112C</color>
+</resources>

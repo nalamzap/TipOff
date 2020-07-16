@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="belt_rank_arrays">
+        <item>N/A</item>
+        <item>White</item>
+        <item>"Orange     |10th kyu"</item>
+        <item>"Orange kyu | 9th kyu"</item>
+        <item>"Blue       | 8th kyu"</item>
+        <item>"Blue Kyu   | 7th kyu"</item>
+        <item>"Yellow     | 6th kyu"</item>
+        <item>"Yellow kyu | 5th kyu"</item>
+        <item>"Green      | 4th kyu"</item>
+        <item>"Green kyu  | 3rd kyu"</item>
+        <item>"Brown      | 2nd kyu"</item>
+        <item>"Brown kyu  | 1st kyu"</item>
+        <item>"Shodan     | 1st Dan"</item>
+        <item>"Nidan      | 2nd Dan"</item>
+        <item>"Sandan     | 3rd Dan"</item>
+        <item>"Yondan     | 4th Dan"</item>
+        <item>"Godan      | 5th Dan"</item>
+        <item>"Rokudan    | 6th Dan"</item>
+        <item>"Shichidan  | 7th Dan"</item>
+        <item>"Hachidan   | 8th Dan"</item>
+        <item>"Kyudan     | 9th Dan"</item>
+        <item>"Jyudan     |10th Dan"</item>
+    </string-array>
+    <string-array name="relationship_arrays">
+        <item>----</item>
+        <item>Single</item>
+        <item>In a relationship</item>
+        <item>Engaged</item>
+        <item>Married</item>
+        <item>Divorced</item>
+        <item>Widowed</item>
+        <item>Separated</item>
+        <item>It\'s complicated</item>
+        <item>In an open relationship</item>
+        <item>In a civil partnership</item>
+        <item>In a domestic partnership</item>
+    </string-array>
+</resources>

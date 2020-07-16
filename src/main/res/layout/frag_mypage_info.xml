@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00FFFFFF"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:visibility="visible"
+    android:weightSum="3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="60dp"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/aboutLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="40dp"
+            android:text="About"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/cardView"
+            app:layout_constraintTop_toBottomOf="@+id/cardView" />
+
+        <ScrollView
+            android:id="@+id/scrollViewAbout"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:overScrollMode="always"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/aboutLabel">
+
+            <TextView
+                android:id="@+id/about"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis tellus consectetur, blandit metus ut, facilisis mi. Curabitur lacinia convallis felis, sed condimentum lacus pellentesque a. Aliquam id efficitur urna, et euismod libero. Fusce sed ipsum elit. Nulla tincidunt neque sed ligula elementum, vitae aliquet augue varius. In non efficitur sapien. Aliquam ut ex a mi vulputate aliquam eget vel ipsum. Praesent sit amet sapien semper, auctor nunc non, tristique ligula. Quisque dictum congue arcu, eu condimentum leo viverra viverra. Sed mauris turpis, scelerisque a ligula vitae, semper bibendum nisl."
+                android:textColor="@color/colorAccent"
+                android:textSize="14sp" />
+        </ScrollView>
+
+        <TextView
+            android:id="@+id/hobbiesLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="5dp"
+            android:text="Hobbies"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/cardView"
+            app:layout_constraintTop_toBottomOf="@+id/scrollViewAbout" />
+
+        <TextView
+            android:id="@+id/hobbies"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:lines="2"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis tellus consectetur, blandit metus ut, facilisis mi. Curabitur lacinia convallis felis, sed condimentum lacus pellentesque a. Aliquam id efficitur urna, et euismod libero. Fusce sed ipsum elit. Nulla tincidunt neque sed ligula elementum, vitae aliquet augue varius. In non efficitur sapien. Aliquam ut ex a mi vulputate aliquam eget vel ipsum. Praesent sit amet sapien semper, auctor nunc non, tristique ligula. Quisque dictum congue arcu, eu condimentum leo viverra viverra. Sed mauris turpis, scelerisque a ligula vitae, semper bibendum nisl."
+            android:textColor="@color/colorAccent"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/hobbiesLabel" />
+
+        <TextView
+            android:id="@+id/achievementsLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="5dp"
+            android:text="Achievements"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/cardView"
+            app:layout_constraintTop_toBottomOf="@+id/scrollViewAbout" />
+
+        <TextView
+            android:id="@+id/hobbies2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:lines="3"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis tellus consectetur, blandit metus ut, facilisis mi. Curabitur lacinia convallis felis, sed condimentum lacus pellentesque a. Aliquam id efficitur urna, et euismod libero. Fusce sed ipsum elit. Nulla tincidunt neque sed ligula elementum, vitae aliquet augue varius. In non efficitur sapien. Aliquam ut ex a mi vulputate aliquam eget vel ipsum. Praesent sit amet sapien semper, auctor nunc non, tristique ligula. Quisque dictum congue arcu, eu condimentum leo viverra viverra. Sed mauris turpis, scelerisque a ligula vitae, semper bibendum nisl."
+            android:textColor="@color/colorAccent"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/hobbiesLabel" />
+
+    </LinearLayout>
+
+</LinearLayout>
